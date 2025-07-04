@@ -13,21 +13,28 @@
         }
 
         label{
-            font-size: 26px;
+            font-size: 24px;
             float: left;
+            text-align: left;
         }
 
         .inp{
             float: right;
             height: 45px;
             width: 300px;
-            font-size: 24px;
+            font-size: 20px;
         }
+        input[type="radio"]
+        {
+            width: 15px;
+            height: 15px;
+        }
+
 
         #submit{
             height: 45px;
             width: 120px;
-            font-size: 24px;
+            font-size: 22px;
             background-color: rgb(203, 30, 90);
             color: white;
             cursor: pointer;
@@ -47,10 +54,10 @@
                 <input class="inp" type="text" placeholder="Enter your Name" required><br><br><br>
 
                 <label>Gender:</label><br><br><br>
-                <input type="radio" name="gender" id="male" value="male">Male
-                <input type="radio" name="gender" id="female" value="female">Female<br>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
                
-                <input type="radio" name="Gender" id="others" value="Others">Others<br><br><br>
+                <input type="radio" name="Gender">Others<br><br><br>
 
                 <label>Father's Name:</label>
                 <input class="inp" type="text" placeholder="Enter your Father Name" required><br><br><br>
@@ -112,12 +119,10 @@
                     <option value="">West Bengal</option>
                     <option value="">None of the above</option>
                 </select><br><br><br>
-
-                
-                <label style="text-align: left;">
+                    <label>
                     <input type="checkbox" required>
                     I hereby,declaring that i will obey all the rules and regulations of the institute and be fully responsible for violating rules.
-                </label><br><br><br><br><br><br>
+                    </label><br><br><br><br><br><br>
                 
                 <input id="submit" type="submit" value="Register"><br><br><br>
             </form>
