@@ -9,7 +9,7 @@
             padding-right: 10px;
             border: 3px solid #FF6363;
             width: 35%;
-            height: 750px;
+            height: 1100px;
         }
 
         label{
@@ -46,6 +46,12 @@
                 <label>Student Name:</label>
                 <input class="inp" type="text" placeholder="Enter your Name" required><br><br><br>
 
+                <label>Gender:</label><br><br><br>
+                <input type="radio" name="gender" id="male" value="male">Male
+                <input type="radio" name="gender" id="female" value="female">Female<br>
+               
+                <input type="radio" name="Gender" id="others" value="Others">Others<br><br><br>
+
                 <label>Father's Name:</label>
                 <input class="inp" type="text" placeholder="Enter your Father Name" required><br><br><br>
 
@@ -61,6 +67,9 @@
                 <label>Password:</label>
                 <input class="inp" type="password" placeholder="Enter Your password" required><br><br><br>
 
+                <label>Confirm Password:</label>
+                <input class="inp" type="password" placeholder="Renter your password" required><br><br><br>
+
                 <label>Student Photo:</label>
                 <input class="inp" type="file" placeholder="Choose File" required><br><br><br>
 
@@ -68,8 +77,48 @@
                 <input class="inp" type="text" placeholder="Enter your city" required><br><br><br>
 
                 <label>Address:</label>
-                <input class="inp" type="text" placeholder="Enter your address" required><br><br><br>
+                <input class="inp" type="textarea" placeholder="Enter your address" required><br><br><br>
 
+                <label>State:</label>
+                <select class="inp" required>
+                    <option value="" disabled selected>Select your State</option>
+                    <option value="">Andhra Pradesh</option>
+                    <option value="">Arunachal Pradesh</option>
+                    <option value="">Assam</option>
+                    <option value="">Bihar</option>
+                    <option value="">Chattisgarh</option>
+                    <option value="">Goa</option>
+                    <option value="">Gujarat</option>
+                    <option value="">Haryana</option>
+                    <option value="">Himachal Pradesh</option>
+                    <option value="">Jharkhand</option>
+                    <option value="">Karnataka</option>
+                    <option value="">Kerala</option>
+                    <option value="">Madhya Pradesh</option>
+                    <option value="">Maharashtra</option>
+                    <option value="">Manipur</option>
+                    <option value="">Meghalaya</option>
+                    <option value="">Mizoram</option>
+                    <option value="">Nagaland</option>
+                    <option value="">Odisha</option>
+                    <option value="">Punjab</option>
+                    <option value="">Rajasthan</option>
+                    <option value="">Sikkim</option>
+                    <option value="">Tamil Nadu</option>
+                    <option value="">Telangana</option>
+                    <option value="">Tripura</option>
+                    <option value="">Uttar Pradesh</option>
+                    <option value="">Uttarakhand</option>
+                    <option value="">West Bengal</option>
+                    <option value="">None of the above</option>
+                </select><br><br><br>
+
+                
+                <label style="text-align: left;">
+                    <input type="checkbox" required>
+                    I hereby,declaring that i will obey all the rules and regulations of the institute and be fully responsible for violating rules.
+                </label><br><br><br><br><br><br>
+                
                 <input id="submit" type="submit" value="Register"><br><br><br>
             </form>
         </center>
